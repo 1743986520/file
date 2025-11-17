@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件下载中心</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px 5px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #2980b9;
+        }
+        .file-info {
+            margin: 20px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📁 文件下载中心</h1>
+        <p>欢迎下载所需文件，所有文件均通过高速CDN分发。</p>
+
+        <div class="file-list">
+            <!-- 【重要】 以下是需要你修改的部分 -->
+            <!-- 按照这个格式，为你的每个文件添加一个下载块 -->
+            <div class="file-info">
+                <h3>我的软件 v1.0</h3>
+                <p>这是一个示例软件的安装包。</p>
+                <a class="download-btn" href="https://cdn.jsdelivr.net/gh/你的GitHub用户名/my-file-host@main/my-software.zip">
+                    下载 ZIP 包
+                </a>
+            </div>
+
+            <!-- 你可以继续添加更多文件 -->
+            <!-- <div class="file-info">
+                <h3>项目文档</h3>
+                <p>详细的说明文档。</p>
+                <a class="download-btn" href="https://cdn.jsdelivr.net/gh/你的GitHub用户名/my-file-host@main/document.pdf">
+                    下载 PDF 文档
+                </a>
+            </div> -->
+        </div>
+
+        <p>由善良的人的遊戲庫提供支持<</p>
+    </div>
+</body>
+</html>
